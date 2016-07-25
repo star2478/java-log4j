@@ -32,7 +32,8 @@ public class TestNDCofLog4j {
     	
     	//打印log    	
         LOGGER.info("info log");
-        String str1='a',str2='b';
+        String str1 = new String("a");
+        String str2 = new String("b");
         
         // 第一种情况：
         LOGGER.debug("log:" + str1 + str2);
